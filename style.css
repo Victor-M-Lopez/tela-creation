@@ -30,16 +30,26 @@ a {
 .nav--container {
   display: flex;
   justify-content: flex-end;
-  padding: 32px;
+  align-items: center;
+  padding: 32px 180px;
 }
 
 .nav_list {
   display: flex;
+  align-items: center;
 }
 
 .nav_link {
   margin-left: 40px;
 }
+
+.contact_button {
+  border: 1px solid #000;
+  border-radius: 100px;
+  padding: 4px 32px;
+}
+
+
 
 /* home */
 #home {

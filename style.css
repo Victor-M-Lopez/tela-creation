@@ -25,6 +25,7 @@ a {
   position: fixed;
   width: 100%;
   top: 0;
+  z-index: 100;
 }
 
 .nav--container {
@@ -40,13 +41,18 @@ a {
 }
 
 .nav_link {
-  margin-left: 40px;
+  margin-left: 120px;
 }
 
 .contact_button {
   border: 1px solid #000;
   border-radius: 100px;
   padding: 4px 32px;
+  transition: background-color 300ms ease;
+}
+
+.contact_button:hover {
+  background-color: #FFF;
 }
 
 
@@ -77,7 +83,26 @@ a {
 
 #logo--wrapper {
   position: absolute;
-  right: 10%;
-  top: 50%;
+  right: 18%;
+  top: 30%;
   transform: translateY(-50%);
+  animation: float 3s ease-in-out infinite;
+}
+
+.home_circle {
+  position: absolute;
+  right: 25%;
+  top: 30%;
+  animation: circle_float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,100% {transform: translateY(0px);}
+  50% {transform: translateY(-10px);}
+}
+
+@keyframes circle_float {
+  0%,100% {transform: translateY(0px);}
+  50% {transform: translateY(-5px);}
+
 }

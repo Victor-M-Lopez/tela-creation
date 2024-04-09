@@ -150,3 +150,8 @@ hr {
   font-weight: 200;
   font-style: italic;
 }
+
+.company_statement {
+  font-weight: 300;
+  margin-top: 32px;
+}

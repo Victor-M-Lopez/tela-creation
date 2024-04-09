@@ -59,6 +59,7 @@ hr {
 
 .nav_link {
   margin-left: 120px;
+  font-weight: 200;
 }
 
 .contact_button {
@@ -143,3 +144,9 @@ hr {
   50% {transform: translateY(15px);}
 }
 
+
+/* About */
+.italic {
+  font-weight: 200;
+  font-style: italic;
+}

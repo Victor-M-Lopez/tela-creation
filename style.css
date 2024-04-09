@@ -49,7 +49,7 @@ hr {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 32px 180px;
+  padding: 32px 32px;
 }
 
 .nav_list {
@@ -146,6 +146,10 @@ hr {
 
 
 /* About */
+#about {
+  position: relative;
+}
+
 .italic {
   font-weight: 200;
   font-style: italic;
@@ -161,4 +165,18 @@ hr {
   position: absolute;
   font-weight: 300;
   right: 100px;
+}
+
+.tela_shape {
+  width: 120px;
+  bottom: 0;
+  margin-top: 10%;
+  animation: circle_float 2s ease-in-out infinite;
+}
+
+.rectangle {
+  position: absolute;
+  top: 32px;
+  right: 200px;
+  animation: circle_float 2s ease-in-out infinite;
 }

@@ -33,7 +33,7 @@ hr {
 }
 
 .container {
-  padding: 32px 0;
+  padding: 4rem 0;
 }
 
 
@@ -154,4 +154,11 @@ hr {
 .company_statement {
   font-weight: 300;
   margin-top: 32px;
+}
+
+.company_statement--end {
+  margin-top: 40px;
+  position: absolute;
+  font-weight: 300;
+  right: 100px;
 }

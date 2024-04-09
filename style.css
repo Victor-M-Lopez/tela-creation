@@ -20,6 +20,23 @@ a {
   color: black;
 }
 
+hr {
+  background-color: #000;
+  height: 3px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.row {
+  padding: 0 100px;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 32px 0;
+}
+
+
 /* nav */
 #home_nav {
   position: fixed;
@@ -67,7 +84,7 @@ a {
 .home_text--container {
   position: absolute;
   top: 50%;
-  left: 80px;
+  left: 100px;
   transform: translateY(-50%);
 }
 
@@ -83,7 +100,7 @@ a {
 
 #logo--wrapper {
   position: absolute;
-  right: 18%;
+  right: 400px;
   top: 30%;
   transform: translateY(-50%);
   z-index: 40;
@@ -92,19 +109,28 @@ a {
 
 .home_circle {
   position: absolute;
-  right: 25%;
+  right: 500px;
   top: 30%;
   z-index: 50;
-  animation: circle_float 3s ease-in-out infinite;
+  animation: circle_float 2s ease-in-out infinite;
 }
 
 .home_circle--2 {
   width: 50px;
   position: absolute;
-  right: 30%;
-  top: 48%;
+  right: 600px;
+  top: 49%;
   z-index: 1;
-  animation: circle_float 3s ease-in-out infinite;
+  animation: circle_float 2s ease-in-out infinite;
+}
+
+.home_circle--3 {
+  width: 80px;
+  position: absolute;
+  right: 400px;
+  top: 60%;
+  z-index: 80;
+  animation: circle_float 2s ease-in-out infinite;
 }
 
 @keyframes float {
@@ -115,5 +141,5 @@ a {
 @keyframes circle_float {
   0%,100% {transform: translateY(0px);}
   50% {transform: translateY(15px);}
-
 }
+

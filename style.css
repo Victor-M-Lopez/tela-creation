@@ -27,6 +27,10 @@ hr {
   margin: 0 auto;
 }
 
+h3 {
+  font-weight: 200;
+}
+
 .row {
   padding: 0 100px;
   margin: 0 auto;
@@ -179,4 +183,40 @@ hr {
   top: 32px;
   right: 200px;
   animation: circle_float 2s ease-in-out infinite;
+}
+
+
+
+/* Services */
+.services_title {
+  width: 100%;
+  font-size: 100px;
+  letter-spacing: 50px;
+}
+
+.services_statement {
+  width: 50%;
+  margin-bottom: 80px;
+}
+
+.services--container {
+  border-bottom: 1px solid #000;
+  width: 80%;
+  padding: 8px 0;
+  transition: transform 300ms ease-in-out;
+  margin-bottom: 16px;
+}
+
+.services--container:hover {
+  cursor: pointer;
+  transform: translate(10px, -5px);
+}
+
+.service_circle {
+  width: 15px;
+}
+
+.service {
+  display: flex;
+  justify-content: space-between;
 }

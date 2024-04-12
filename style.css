@@ -228,6 +228,9 @@ h3 {
 /* Portfolio */
 .website--container {
   margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .website_img {
@@ -236,6 +239,25 @@ h3 {
 }
 
 .website--box {
-  border: 1px solid #000;
-  width: 90%;
+  position: relative;
+  width: 80%;
+  overflow: hidden;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  transition: all 300ms ease;
+}
+
+.website_overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  background-color: #000;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: transform 800ms ease, opacity 800ms ease;
+}
+
+.website--box:hover .website_overlay {
+  transform: translateY(0);
+  opacity: 0.8;
 }

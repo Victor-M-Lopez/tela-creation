@@ -232,4 +232,10 @@ h3 {
 
 .website_img {
   width: 100%;
+  display: block;
+}
+
+.website--box {
+  border: 1px solid #000;
+  width: 90%;
 }

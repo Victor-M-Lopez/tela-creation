@@ -226,3 +226,10 @@ h3 {
 
 
 /* Portfolio */
+.website--container {
+  margin-top: 100px;
+}
+
+.website_img {
+  width: 100%;
+}

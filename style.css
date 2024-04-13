@@ -324,12 +324,18 @@ h3 {
   margin-bottom: 80px;
 }
 
+.footer_list > li:nth-last-child(1) {
+  margin-bottom: 0;
+}
+
 .footer_link {
-  font-size: 32px;
+  font-size: 30px;
+  font-weight: 200;
   font-style: italic;
 }
 
 .footer_row {
+  position: relative;
   display: flex;
   gap: 100px;
 }
@@ -337,4 +343,11 @@ h3 {
 .phone_number {
   font-style: italic;
   font-weight: 200;
+}
+
+.tela_logo--footer {
+  position: absolute;
+  right: 250px;
+  bottom: 120px;
+  animation: float 3s ease-in-out infinite;
 }

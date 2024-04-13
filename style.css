@@ -346,8 +346,16 @@ h3 {
 }
 
 .tela_logo--footer {
+  width: 200px;
   position: absolute;
   right: 250px;
-  bottom: 120px;
+  bottom: 75px;
   animation: float 3s ease-in-out infinite;
+}
+
+.tela_copyright {
+  position: absolute;
+  right: 130px;
+  bottom: 5px;
+  font-weight: 200;
 }

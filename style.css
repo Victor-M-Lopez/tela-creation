@@ -140,15 +140,6 @@ h3 {
   animation: circle_float 2s ease-in-out infinite;
 }
 
-@keyframes float {
-  0%,100% {transform: translateY(0px);}
-  50% {transform: translateY(-10px);}
-}
-
-@keyframes circle_float {
-  0%,100% {transform: translateY(0px);}
-  50% {transform: translateY(15px);}
-}
 
 
 /* About */
@@ -357,6 +348,12 @@ h3 {
   font-weight: 200;
 }
 
+.tela_socials--container {
+  position: relative;
+  border: 1px solid red;
+  width: 100%;
+}
+
 .logo--container {
   position: absolute;
   background-color: #FFF;
@@ -366,6 +363,17 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: circle_float 2s ease-in-out infinite;
+}
+
+.instagram--container {
+  left: 32px;
+  top: 32px;
+}
+
+.linkedin--container {
+  left: 100px;
+  bottom: 50px;
 }
 
 .footer_logo {
@@ -373,8 +381,14 @@ h3 {
   height: 30px;
 } 
 
-.tela_socials--container {
-  border: 1px solid red;
-  width: 100%;
+
+/* animations */
+@keyframes float {
+  0%,100% {transform: translateY(0px);}
+  50% {transform: translateY(-10px);}
 }
 
+@keyframes circle_float {
+  0%,100% {transform: translateY(0px);}
+  50% {transform: translateY(15px);}
+}

@@ -315,3 +315,25 @@ h3 {
   opacity: 1;
   transform: translateX(0);
 }
+
+
+/* footer */
+.footer_list > li,
+.footer_contact--list > li {
+  margin-bottom: 80px;
+}
+
+.footer_link {
+  font-size: 32px;
+  font-style: italic;
+}
+
+.footer_row {
+  display: flex;
+  gap: 100px;
+}
+
+.phone_number {
+  font-style: italic;
+  font-weight: 200;
+}

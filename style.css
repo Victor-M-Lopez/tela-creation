@@ -56,6 +56,8 @@ h3 {
   justify-content: flex-end;
   align-items: center;
   padding: 32px 32px;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .nav_list {
@@ -316,81 +318,55 @@ h3 {
 
 
 /* footer */
-.footer_list > li,
-.footer_contact--list > li {
-  margin-bottom: 80px;
-}
-
-.footer_list > li:nth-last-child(1) {
-  margin-bottom: 0;
-}
-
-.footer_link {
-  font-size: 24px;
-  font-weight: 200;
-  font-style: italic;
-}
-
 .footer_row {
-  position: relative;
   display: flex;
-  gap: 100px;
-}
-
-.phone_number {
-  font-style: italic;
-  font-weight: 200;
-}
-
-.tela_logo--footer {
-  width: 250px;
-  animation: float 3s ease-in-out infinite;
-}
-
-.tela_copyright {
-  position: absolute;
-  right: 130px;
-  bottom: 5px;
-  font-weight: 200;
-}
-
-.tela_socials--container {
-  position: relative;
-  width: 100%;
-}
-
-.logo--container {
-  position: absolute;
-  background-color: #FFF;
-  border-radius: 100px;
-  width: 50px;
-  height: 50px;
-  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  animation: circle_float 2s ease-in-out infinite;
-}
-
-.instagram--container {
-  left: 32px;
-  top: 32px;
-}
-
-.linkedin--container {
-  left: 100px;
-  bottom: 50px;
-}
-
-.tiktok--container {
-  left: 200px;
-  top: 100px;
 }
 
 .footer_logo {
-  width: 30px;
-  height: 30px;
-} 
+  width: 200px;
+  margin-bottom: 100px;
+}
 
+.phone_number {
+  font-size: 32px;
+  font-weight: 100;
+  margin-bottom: 32px;
+}
+
+.email {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.footer_list {
+  margin-top: 32px;
+  display: flex;
+  gap: 32px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.socials_box {
+  background-color: #000;
+  padding: 24px 32px;
+  color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socials {
+  font-size: 32px;
+  color: #FFF;
+}
+
+.social_media--container > ul {
+  display: flex;
+  gap: 32px;
+}
 
 /* animations */
 @keyframes float {

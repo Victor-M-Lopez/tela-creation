@@ -192,19 +192,6 @@ h3 {
   margin-bottom: 80px;
 }
 
-.services--container {
-  border-bottom: 1px solid #000;
-  width: 80%;
-  padding: 8px 0;
-  transition: transform 300ms ease-in-out;
-  margin-bottom: 16px;
-}
-
-.services--container:hover {
-  cursor: pointer;
-  transform: translate(10px, -5px);
-}
-
 .service_circle {
   width: 15px;
 }
@@ -212,8 +199,27 @@ h3 {
 .service {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 32px;
 }
 
+#web_dev--btn,
+#graphic_design--btn {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  border-bottom: 1px solid #000;
+  background-color: #EFEEE8;
+  padding-bottom: 12px;
+  transition: transform 400ms ease;
+}
+
+#web_dev--btn:hover,
+#graphic_design--btn:hover {
+  cursor: pointer;
+  transform: translate(10px, -10px);
+}
 
 
 /* Portfolio */

@@ -360,12 +360,16 @@ h3 {
 
 .socials {
   font-size: 32px;
-  color: #FFF;
+  color: #EFEEE8;
 }
 
 .social_media--container > ul {
   display: flex;
   gap: 32px;
+}
+
+.tela_copyright {
+  color: #EFEEE8;
 }
 
 /* animations */

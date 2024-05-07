@@ -7,8 +7,12 @@
   font-family: "Poppins", sans-serif;
 }
 
+:root {
+  --background: #F8F8FF;
+}
+
 body {
-  background-color: #EFEEE8;
+  background-color: var(--background);
 }
 
 li {
@@ -47,7 +51,7 @@ h3 {
   width: 100%;
   top: 0;
   z-index: 100;
-  background-color: #EFEEE8;
+  background-color: var(--background);
   opacity: 0.9;
 }
 
@@ -57,7 +61,7 @@ h3 {
   align-items: center;
   padding: 32px 32px;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1500px;
 }
 
 .nav_list {
@@ -78,7 +82,8 @@ h3 {
 }
 
 .contact_button:hover {
-  background-color: #FFF;
+  background-color: #000;
+  color: #F8F8FF;
 }
 
 

@@ -51,8 +51,6 @@ h3 {
   width: 100%;
   top: 0;
   z-index: 100;
-  background-color: var(--background);
-  /* background-color: #192F41; */
   opacity: 0.9;
 }
 
@@ -115,40 +113,16 @@ h3 {
 
 #logo--wrapper {
   position: absolute;
-  right: 200px;
-  top: 25%;
+  right: 15%;
+  top: 35%;
   transform: translateY(-50%);
   z-index: 40;
   animation: float 3s ease-in-out infinite;
 }
 
-.home_circle {
-  position: absolute;
-  right: 500px;
-  top: 30%;
-  z-index: 50;
-  animation: circle_float 2s ease-in-out infinite;
+.home_logo {
+  width: 300px;
 }
-
-.home_circle--2 {
-  width: 50px;
-  position: absolute;
-  right: 600px;
-  top: 49%;
-  z-index: 1;
-  animation: circle_float 2s ease-in-out infinite;
-}
-
-.home_circle--3 {
-  width: 80px;
-  position: absolute;
-  right: 400px;
-  top: 60%;
-  z-index: 80;
-  animation: circle_float 2s ease-in-out infinite;
-}
-
-
 
 /* About */
 #about {
@@ -173,16 +147,9 @@ h3 {
 }
 
 .tela_shape {
-  width: 120px;
+  width: 100px;
   bottom: 0;
   margin-top: 10%;
-  animation: circle_float 2s ease-in-out infinite;
-}
-
-.rectangle {
-  position: absolute;
-  top: 32px;
-  right: 200px;
   animation: circle_float 2s ease-in-out infinite;
 }
 
@@ -358,7 +325,6 @@ h3 {
 .socials_box {
   background-color: #000;
   padding: 24px 32px;
-  color: #FFF;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -366,7 +332,7 @@ h3 {
 
 .socials {
   font-size: 32px;
-  color: #EFEEE8;
+  color: var(--background);
 }
 
 .social_media--container > ul {
@@ -375,7 +341,7 @@ h3 {
 }
 
 .tela_copyright {
-  color: #EFEEE8;
+  color: var(--background);
 }
 
 /* animations */

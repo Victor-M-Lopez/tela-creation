@@ -8,3 +8,84 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --black-color: #181818;
+  --white-color: #F8F8FF;
+  --green-color: #A8D5BA;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif
+}
+
+p, a, span {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-color: var(--black-color);
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* landing page */
+
+/* --nav */
+.nav_container {
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tela__logo {
+  width: 40px;
+}
+
+.color_mode {
+  width: 20px;
+  height: 8px;
+  background-color: var(--white-color);
+  border: none;
+  border-radius: 100px;
+}
+
+.nav_list {
+  display: flex;
+  gap: 100px;
+}
+
+.nav_link {
+  color: var(--white-color);
+  font-weight: 100;
+}
+
+.contact_link {
+  border: 1px solid var(--white-color);
+  padding: 4px 32px;
+  border-radius: 100px;
+}
+
+/* --header */
+
+.title--container {
+  position: absolute;
+  top: 50%;
+  left: 24px;
+  transform: translateY(-50%);
+}
+
+.tela_creation {
+  width: 80%;
+}
+
+.landing_page--sub-heading {
+  color: var(--white-color);
+}

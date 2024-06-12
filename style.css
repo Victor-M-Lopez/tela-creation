@@ -57,6 +57,10 @@ a {
   border-radius: 100px;
 }
 
+.color_mode:hover {
+  cursor: pointer;
+}
+
 .nav_list {
   display: flex;
   gap: 100px;

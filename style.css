@@ -263,6 +263,7 @@ nav {
 
 /* portfolio */
 .projects--container {
+  position: relative;
   margin-top: 100px;
   display: flex;
   flex-direction: column;
@@ -271,6 +272,7 @@ nav {
 
 .project--wrapper {
   width: 100%;
+  z-index: 50;
  }
 
 .project__img {
@@ -301,4 +303,25 @@ nav {
   padding: 4px 16px;
   color: var(--black-color);
   border-radius: 100px;
+}
+
+.portfolio_circle1 {
+  position: absolute;
+  top: 0;
+  left: -300px;
+  z-index: 40;
+  width: 80%;
+}
+
+.portfolio_circle2 {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+
+.portfolio_circle3 {
+  position: absolute;
+  bottom: -100px;
+  right: 30%;
+  width: 30%;
 }

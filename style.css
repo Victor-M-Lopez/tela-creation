@@ -7,6 +7,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -324,4 +325,66 @@ nav {
   bottom: -100px;
   right: 30%;
   width: 30%;
+}
+
+
+
+
+/* footer */
+footer {
+  position: relative;
+  padding-top: 8rem;
+  height: 50rem;
+}
+
+.footer_title {
+  text-align: center;
+  font-weight: 100;
+}
+
+#footer_contact--btn {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  padding: 50px;
+  text-align: center;
+  background: none;
+  border: 1px solid var(--green-color);
+  border-radius: 100%;
+  color: var(--green-color);
+  font-size: 24px;
+  bottom: 24px;
+  right: 32px;
+}
+
+#footer_contact--btn:hover {
+  cursor: pointer;
+}
+
+.contact_info {
+  position: absolute;
+  bottom: 10%;
+  left: 32px;   
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+  
+.email,
+.number {
+  color: var(--white-color);
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.email::before,
+.number::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100px;
+  background-color: var(--green-color);
+  margin-right: 8px;
 }

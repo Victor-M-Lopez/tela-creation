@@ -223,6 +223,7 @@ nav {
   color: var(--white-color);
   font-size: 20px;
   border-bottom: 0.5px solid var(--white-color);
+  font-weight: 200;
   
   transition: transform 300ms ease,
               width 600ms ease;
@@ -257,4 +258,47 @@ nav {
   background-color: var(--green-color);
   border-radius: 100px;
   margin-right: 12px;
+}
+
+
+/* portfolio */
+.projects--container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+}
+
+.project--wrapper {
+  width: 100%;
+ }
+
+.project__img {
+  width: 100%;
+  display: block;
+  border-radius: 32px;
+}
+
+.project_info--container {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.name_and_service h3 {
+  font-weight: 200;
+  margin-bottom: 4px;
+}
+  
+.name_and_service p {
+  font-weight: 100;
+}
+
+.project_btn {
+  background-color: var(--green-color);
+  padding: 4px 16px;
+  color: var(--black-color);
+  border-radius: 100px;
 }

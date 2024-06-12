@@ -16,7 +16,8 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Poppins", sans-serif
+  font-family: "Poppins", sans-serif;
+  color: var(--white-color);
 }
 
 p, a, span {
@@ -35,9 +36,32 @@ a {
   text-decoration: none;
 }
 
+.container {
+  padding: 4rem 0;
+}
+
+.row {
+  padding: 0 56px;
+}
+
+.medium-weight {
+  font-weight: 300;
+}
+
+.light-weight {
+  font-weight: 200;
+}
+
 /* landing page */
 
 /* --nav */
+nav {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .nav_container {
   padding: 24px;
   display: flex;
@@ -96,10 +120,13 @@ a {
 
 /* circles_landing_page */
 #home {
-  position: relative;
+  position: fixed;
   height: 100vh;
+  top: 0;
+  left: 0;
   width: 100%;
   overflow: hidden;
+  z-index: 5;
 }
 
 .circle_1 {
@@ -122,4 +149,31 @@ a {
   right: -20px;
   bottom: -100px;
   width: 200px;
+}
+
+#about {
+  position: relative;
+  background-color: var(--black-color);
+  z-index: 10;
+  margin-top: 100vh;
+}
+
+#about > h1, p {
+  color: var(--white-color);
+  letter-spacing: 2px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: var(--white-color);
+  margin-top: 24px;
+}
+
+.company_name {
+  margin-bottom: 12px;
+}
+
+.company_meaning {
+  margin: 12px 0 32px 0;
 }

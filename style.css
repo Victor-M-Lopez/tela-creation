@@ -37,7 +37,7 @@ a {
 }
 
 .container {
-  padding: 4rem 0;
+  padding: 8rem 0;
 }
 
 .row {
@@ -196,4 +196,13 @@ nav {
   left: 50%;
   transform: translateX(-50%);
   width: 80%;
+}
+
+
+
+
+/* services */
+.section--header {
+  font-size: 80px;
+  font-weight: 100;
 }

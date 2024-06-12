@@ -192,7 +192,7 @@ nav {
 
 .about_section--circles {
   position: absolute;
-  top: 0;
+  top: 20%;
   left: 50%;
   transform: translateX(-50%);
   width: 80%;
@@ -203,6 +203,10 @@ nav {
 
 /* services */
 .section--header {
-  font-size: 80px;
+  font-size: 100px;
   font-weight: 100;
+}
+
+services--container {
+  border: 1px solid red;
 }

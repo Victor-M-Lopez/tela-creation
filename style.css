@@ -172,7 +172,7 @@ nav {
 }
 
 .company_name {
-  margin-bottom: 24px;
+  margin-bottom: 8px;
 }
 
 .company_meaning {
@@ -192,7 +192,7 @@ nav {
 
 .about_section--circles {
   position: absolute;
-  top: 20%;
+  top: 4%;
   left: 50%;
   transform: translateX(-50%);
   width: 80%;
@@ -207,6 +207,54 @@ nav {
   font-weight: 100;
 }
 
-services--container {
-  border: 1px solid red;
+.services--container {
+  margin-top: 40px;
+}
+
+#web_dev--btn,
+#graphic_design--btn,
+#marketing {
+  border: none;
+  width: 50%;
+  text-align: left;
+  margin-bottom: 32px;
+  padding: 8px;
+  background: none;
+  color: var(--white-color);
+  font-size: 20px;
+  border-bottom: 0.5px solid var(--white-color);
+  
+  transition: transform 300ms ease,
+              width 600ms ease;
+}
+
+#web_dev--btn:hover,
+#graphic_design--btn:hover,
+#marketing:hover {
+  transform: translate(4px, 8px);
+  width: 80%;
+}
+
+.services_row {
+  position: relative;
+}
+
+.services-sub--heading {
+  position: absolute;
+  right: 32px;
+  bottom: -150px;
+  width: 40%;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+
+.services-sub--heading::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: var(--green-color);
+  border-radius: 100px;
+  margin-right: 12px;
 }
